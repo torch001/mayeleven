@@ -1,0 +1,45 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    height: 50%;
+    background-color: grey;
+    }
+
+.screen{
+    height: 20%;
+    margin-bottom: 5px;
+    background-color: black;
+
+}
+
+.numcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    height: 80%;
+    gap: 5px;
+
+}
+
+.keys{
+ background-color: green;
+ font-size: large;
+ font-weight: 10;
+ display: flex;
+
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  .nav1{
+    background-color: rgb(218, 111, 222);
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .nav1 a{
+    text-align: center;
+    text-decoration: none;
+  
+  }
+  
+  .nav a{
+    text-decoration: none;
+    color: blue;
+    margin: 0px 10px;
+    font-size: 15px;
+  }
+  
+  .date{
+    margin: 1rem 0px;
+    color: blue;
+    
+  }
+  
+  .article{
+    margin: 15px 0px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .lorem{
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .div{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
